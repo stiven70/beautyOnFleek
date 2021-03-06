@@ -1,0 +1,166 @@
+/*   Responsive
+  ____________________________________________________________________
+  Escritorios muy grandes
+  -----------------------------------------------------------------------*/
+@media (min-width: 1200px) {
+  .contact_form {
+    width: 40%;
+  }
+  .agregar-imagen {
+    width: 30%;
+  }
+}
+
+/* _________________________________________________________________
+  Tablets en horizontal y escritorios normales
+  -----------------------------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 1199px) {
+  .contenedor-textos .imagenP {
+    margin-bottom: 15px;
+    width: 33%;
+  }
+  .agregar-imagen {
+    width: 90%;
+  }
+  #app-whatsapp {
+    right: 0px;
+  }
+  #app-whatsapp i {
+    font-size: 60px;
+  }
+}
+
+/* _________________________________________________________________
+  Moviles en horizontal otablets en vertical
+  -----------------------------------------------------------------------*/
+@media (max-width: 768px) {
+  .header .logo {
+    height: auto;
+    padding-left: 15px;
+    align-content: center;
+  }
+  .header .site-name {
+    font-size: 30px;
+    color: var(--colortextosheader);
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+  }
+  .menu {
+    height: auto;
+    padding-right: 15px;
+    display: flex;
+  }
+  .menu li {
+    list-style: none;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .contenedor-textos .imagenP {
+    width: 50%;
+    height: 330px;
+    margin-bottom: 0px;
+  }
+  .hero h1 {
+    font-size: 40px;
+  }
+  .hero p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 65px;
+  }
+  .boton a {
+    font-size: 15px;
+  }
+  .cards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cards .card {
+    width: 90%;
+  }
+
+  .cards .card:first-child {
+    margin-bottom: 30px;
+  }
+  .subtitulo {
+    font-size: 30px;
+  }
+  .agregar-imagen {
+    width: 95%;
+  }
+  #app-whatsapp {
+    right: -10px;
+  }
+  #app-whatsapp i {
+    font-size: 50px;
+  }
+}
+
+/* _________________________________________________________________
+  Moviles en vertical
+  -----------------------------------------------------------------------*/
+@media (max-width: 480px) {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+  .header .logo {
+    height: auto;
+    padding-left: 5px;
+    align-content: center;
+  }
+  .header .site-name {
+    font-size: 30px;
+    color: var(--colortextosheader);
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+  }
+  .menu {
+    display: none;
+  }
+  .contenedor-textos .imagenP {
+    width: 60%;
+    height: 210px;
+    margin-bottom: 30px;
+  }
+  .hero h1 {
+    font-size: 25px;
+  }
+  .hero p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 65px;
+  }
+  .boton a {
+    font-size: 10px;
+  }
+  .contenedor-servicio img {
+    width: 90%;
+    margin-bottom: 40px;
+  }
+  .checklist-servicio {
+    width: 70%;
+  }
+  .service {
+    margin-bottom: 30px;
+  }
+  .img-galeria {
+    width: 45%;
+  }
+  .agregar-imagen {
+    width: 95%;
+  }
+  .titulo-final {
+    font-size: 20px;
+  }
+  #app-whatsapp {
+    right: -24px;
+  }
+  #app-whatsapp i {
+    font-size: 40px;
+  }
+}
