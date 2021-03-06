@@ -163,4 +163,7 @@
   #app-whatsapp i {
     font-size: 40px;
   }
+   .hero {
+    background-attachment: initial;
+  }
 }
